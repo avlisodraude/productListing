@@ -62,7 +62,7 @@ var List = React.createClass({
             <ul>
             {
                 this.props.items.map(function(item) {
-                return <li key={item}>{item.toUpperCase()}</li>
+                return <li key={item}>{item}</li>
             })
             }
         </ul>
